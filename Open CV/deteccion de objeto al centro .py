@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Inicializa la cámara web
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 # Define el rango de colores en formato HSV para el negro
 lower_black = np.array([0, 0, 0])
